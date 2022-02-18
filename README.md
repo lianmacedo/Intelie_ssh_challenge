@@ -4,9 +4,9 @@
 After setting up a lab on virtual-box software, installing openssh-server, starting the ssh service, enabling port fowarding on the sshd_config file on all VMs. 
 My lab is composed by 3 VMs:
 
-lianmacedo1-VirtualBox | IP: 10.0.2.15 | named as Ubuntu-1 on VirtualBox  (Localhost)
+lianmacedo1-VirtualBox | IP: 10.0.2.15 | named as Ubuntu-1 on VirtualBox  (Local)
 
-lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (jumphost)
+lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (jump)
 
 lianmacedo3-VirtualBox | IP: 10.0.2.4 | named as Ubuntu-3 on VirtualBox (server)
 

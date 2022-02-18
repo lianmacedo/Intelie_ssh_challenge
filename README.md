@@ -14,7 +14,8 @@ Before we can resolve the challenge in a single command, we will resolve it step
 
 The first step is to connect to the lianmacedo2 via SSH from the lianmacedo1.
 We will run the following command: "ssh lianmacedo2@10.0.2.6", after typing the password for the lianmacedo2 user it will connect to the lianmacedo2-VirtualBox as the user lianmacedo2.
-#If we use a user that not exists in the lianmacedo2 we will receive a authentication error.
+
+#If we pass a user that doesn't exists in lianmacedo2 we will receive a authentication error.
 
 <img width="955" alt="image1" src=https://user-images.githubusercontent.com/97834655/154605399-57215b26-8861-4294-9ec8-d5ffe5875895.png>
 

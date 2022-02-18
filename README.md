@@ -10,10 +10,11 @@ lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (jump)
 
 lianmacedo3-VirtualBox | IP: 10.0.2.4 | named as Ubuntu-3 on VirtualBox (server)
 
-Before we can resolve the challenge in a single command, we will resolve it step by step.
+Before we can resolve the challenge in a single command, we will resolve it step by step. The main task is to connect from the lianmacedo1 to lianmacedo2 and to the port 8000 on lianmacedo3.
 
 The first step is to connect to the lianmacedo2 via SSH from the lianmacedo1.
-We need to assume the root user, using the "sudo su" command. After it we will run the following command: "ssh lianmacedo2@10.0.2.6", after typing the password for the lianmacedo2 user it will connect to the lianmacedo2-VirtualBox as the user lianmacedo2.
+We will run the following command: "ssh lianmacedo2@10.0.2.6", after typing the password for the lianmacedo2 user it will connect to the lianmacedo2-VirtualBox as the user lianmacedo2.
+#If we use a user that not exists in the lianmacedo2 we will receive a authentication error.
 
 ![image](https://user-images.githubusercontent.com/97834655/154605399-57215b26-8861-4294-9ec8-d5ffe5875895.png)
 

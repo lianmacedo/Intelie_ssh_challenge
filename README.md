@@ -4,11 +4,11 @@
 After setting up a lab on virtual-box software, installing openssh-server, starting the ssh service, enabling port fowarding on the sshd_config file on all VMs. 
 My lab is composed by 3 VMs:
 
-lianmacedo1-VirtualBox | IP: 10.0.2.15 | named as Ubuntu-1 on VirtualBox  (Local)
+lianmacedo1-VirtualBox | IP: 10.0.2.15 | named as Ubuntu-1 on VirtualBox  (Client A)
 
-lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (jump)
+lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (Server A)
 
-lianmacedo3-VirtualBox | IP: 10.0.2.4 | named as Ubuntu-3 on VirtualBox (server)
+lianmacedo3-VirtualBox | IP: 10.0.2.4 | named as Ubuntu-3 on VirtualBox (Server B)
 
 Before we can resolve the challenge in a single command, we will resolve it step by step. The main task is to connect from the lianmacedo1 to lianmacedo2 and to the port 8000 on lianmacedo3.
 

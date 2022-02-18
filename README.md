@@ -37,7 +37,7 @@ Opening the browser on the lianmacedo2 and making a request to the 8080 port we 
 
 <img width="955" alt="image2" src="https://user-images.githubusercontent.com/97834655/154606589-fcc3a697-3163-4831-9d7b-0b4358dc9f42.png">
 <img width="955" alt="image" src="https://user-images.githubusercontent.com/97834655/154606657-9ba0c493-a514-4186-a280-4344509c8283.png">
-
+#There is no service running on the port 8000 on the lianmacedo3, so we will receive the "Name or service not know" message.
 
 We resolved the challenge, but we needed to type several commands, step by step! 
 

@@ -5,7 +5,9 @@ After setting up a lab on virtual-box software, installing openssh-server, start
 My lab is composed by 3 VMs:
 
 lianmacedo1-VirtualBox | IP: 10.0.2.15 | named as Ubuntu-1 on VirtualBox  (Localhost)
+
 lianmacedo2-VirtualBox | IP: 10.0.2.6 | named as Ubuntu-2 on VirtualBox (jumphost)
+
 lianmacedo3-VirtualBox | IP: 10.0.2.4 | named as Ubuntu-3 on VirtualBox (server)
 
 Before we can resolve the challenge in a single command, we will resolve it step by step.
@@ -18,11 +20,11 @@ We need to assume the root user, using the "sudo su" command. After it we will r
 
 The second step is to connect to the lianmacedo3 via SSH from the lianmacedo2. We should execute the command "ssh lianmacedo3@10.0.2.4". After typing the password for the lianmacedo3 user, we are in the lianmacedo3-VirtualBox!
 
-<img width="505" alt="image" src="https://user-images.githubusercontent.com/97834655/154601273-7fecc854-6ad1-411e-8a9a-55b24a06cfba.png">
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/97834655/154601273-7fecc854-6ad1-411e-8a9a-55b24a06cfba.png">
 
 We now know that we have connection between the 3 VMs, connecting one to one. So let's make a jump using the -J option of the ssh command to connect from lianmacedo1, passing to the lianmacedo2 and reaching lianmacedo3. We will execute the command "ssh -J lianmacedo2@10.0.2.6 lianmacedo@10.0.2.4". After inserting the password for each VM we should connect from the lianmacedo1 to the lianmacedo3.
 
-<img width="506" alt="image" src="https://user-images.githubusercontent.com/97834655/154603931-1633c15e-c991-4517-98e8-471c4aae9bb3.png">
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/97834655/154603931-1633c15e-c991-4517-98e8-471c4aae9bb3.png">
 
 Let's "exit" from the lianmacedo3, returning to the lianmacedo1 and connect to the lianmacedo2 again. 
 
@@ -33,7 +35,7 @@ Once we are in the lianmacedo2 we should connect to the port 8000 of the lianmac
 
 Opening the browser on the lianmacedo2 and making a request to the 8080 port we should get some tries on the terminal of lianmacedo1, once we are inside lianmacedo3. 
 
-![image](https://user-images.githubusercontent.com/97834655/154606589-fcc3a697-3163-4831-9d7b-0b4358dc9f42.png)
+<img width="955" alt="image2" src="https://user-images.githubusercontent.com/97834655/154606589-fcc3a697-3163-4831-9d7b-0b4358dc9f42.png">
 <img width="955" alt="image" src="https://user-images.githubusercontent.com/97834655/154606657-9ba0c493-a514-4186-a280-4344509c8283.png">
 
 

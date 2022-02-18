@@ -1,5 +1,5 @@
 # Intelie_ssh_challenge
-#Here you will see the step by step of how to connect to a server specific port, passing through a jumphost
+#Here you will see the step by step of how to connect to a server specific port, after connecting to another server.
 
 After setting up a lab on virtual-box software, installing openssh-server, starting the ssh service, enabling port fowarding on the sshd_config file on all VMs. 
 My lab is composed by 3 VMs:
